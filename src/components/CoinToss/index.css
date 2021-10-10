@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.toss-coin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(#e2a139, #f9d423);
+  background-size: cover;
+}
+.toss-img {
+  height: 200px;
+  width: 200px;
+}
+.toss-coin-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  background-color: #fff;
+  background-size: cover;
+  border-radius: 5px;
+}
+.counts {
+  display: flex;
+}
+.total,
+.heads,
+.tails {
+  margin-left: 25px;
+}
+.heading {
+  color: #a35200;
+}
+.content {
+  color: #475569;
+  font-size: 20px;
+  font-weight: bold;
+}
+.toss {
+  height: 30px;
+  width: 100px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 5px;
+  font-weight: bold;
+}
